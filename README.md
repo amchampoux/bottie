@@ -30,7 +30,7 @@ Aunt Bottie is an AI powered web app allowing a customer to buy a plant as a gif
 
 **Login, account and mini-cart**
 
-!["Screenshot of the login, account and mini-cart"](https://github.com/amchampoux/bottie/blob/main/docs/account.gif)
+!["Screenshot of the login, account and mini-cart"](https://github.com/amchampoux/bottie/blob/main/docs/account2.gif)
 
 **Plant page**
 
@@ -38,7 +38,7 @@ Aunt Bottie is an AI powered web app allowing a customer to buy a plant as a gif
 
 **Card AI congiguration**
 
-!["Screenshot of the purchase flow"](https://github.com/amchampoux/bottie/blob/main/docs/flow.gif)
+!["Screenshot of card config flow"](https://github.com/amchampoux/bottie/blob/main/docs/flow2.gif)
 
 **Cart**
 
