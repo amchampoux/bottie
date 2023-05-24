@@ -19,7 +19,7 @@ Aunt Bottie is an AI powered web app allowing a customer to buy a plant as a gif
 
 **Front-End**: React, Axios, Typescript, SASS, JavaScript
 
-**Back-End**: Express, Node.js, PostgreSQL
+**Back-End**: Express, Node.js, PostgreSQL, ChatGPT
 
 
 ## Screenshots
@@ -42,7 +42,7 @@ Aunt Bottie is an AI powered web app allowing a customer to buy a plant as a gif
 
 **Cart**
 
-!["Screenshot of the purchase flow"](https://github.com/amchampoux/bottie/blob/main/docs/cart.png)
+!["Screenshot of the purchase flow"](https://github.com/amchampoux/bottie/blob/main/docs/Cart.png)
 
 
 ## Setup
