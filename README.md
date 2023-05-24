@@ -1,44 +1,73 @@
-# Aunt Bottie Gift Plant and Card App
+# Aunt Bottie
 
-Aunt Bottie is an app for buying plants as gifts and creating a personal card via Open AI.
+Aunt Bottie is an AI powered web app allowing a customer to buy a plant as a gift and getting a personal card to accompany the delivery.
 
-1. A user selects a gift.
-2. The user then fills out a form with the following info.
-   - The recipient of the gift
-   - The Senders info.
-   - The Card poetry style
-   - Themes of the card.
-   - The mood of the poem.
-3. A request is sent to OpenAI and the card is create.
-4. Users add the gift and card to their cart.
-5. They can make payment.
 
-## Current Stage:
+## User Requirements
 
-MVP verson 1.0 - Everthing works as a demo but it is not ready for production.
+* A user can login into the app and browse through a currated selection of plants
+* A user can access it's account and cart information from the header
+* A user configure it's gift by completing those steps:
+  * Choosing a plant 
+  * Fill the recipient info
+  * Select the prompts to get an AI generated card
+  * Validate information then add the item to the cart
+* The user can add multiple gift to it's cart then proceed to checkout
 
-## Final Product
 
-### Homepage
+## Project Stack
 
-!["Homepage"](https://github.com/rebecca-kurtis/bottie/blob/readme/docs/Homepage.png)
+**Front-End**: React, Axios, Typescript, SASS, JavaScript
 
-### Flow Pages
+**Back-End**: Express, Node.js, PostgreSQL
 
-!["Flow01"](https://github.com/rebecca-kurtis/bottie/blob/readme/docs/Flow01.png)
 
-!["Flow02"](https://github.com/rebecca-kurtis/bottie/blob/readme/docs/Flow02.png)
+## Screenshots
 
-!["Flow03"](https://github.com/rebecca-kurtis/bottie/blob/readme/docs/Flow03.png)
+**Home**
 
-!["Card"](https://github.com/rebecca-kurtis/bottie/blob/readme/docs/Card.png)
+!["Screenshot of the home"](https://github.com/amchampoux/bottie/blob/main/docs/home.png)
 
-!["Cart"](https://github.com/rebecca-kurtis/bottie/blob/readme/docs/Cart.png)
+**Login, account and mini-cart**
 
-### Plant Details
+!["Screenshot of the login, account and mini-cart"](https://github.com/amchampoux/bottie/blob/main/docs/account.gif)
 
-!["Plant Details"](https://github.com/rebecca-kurtis/bottie/blob/readme/docs/Plant-Details.png)
+**Plant page**
 
-## Getting Started
+!["Screenshot of the plant page"](https://github.com/amchampoux/bottie/blob/main/docs/plant.png)
 
-Clone this github and in the app directory run npm install to get all the dependencies.
+**Card AI congiguration**
+
+!["Screenshot of the purchase flow"](https://github.com/amchampoux/bottie/blob/main/docs/flow.gif)
+
+**Cart**
+
+!["Screenshot of the purchase flow"](https://github.com/amchampoux/bottie/blob/main/docs/cart.png)
+
+
+## Setup
+
+For full functionality, the client and the API server applications must run concurrently: 
+
+* Navigate to the root directory and install dependencies with `npm install`.
+* Run the following command from the server directory to run the server `npm run dev`.
+* Run the following command from the root directory of the project `npm start`.
+
+
+## Dependencies
+
+* Axios
+* Classnames
+* Normalize.css
+* React
+* React-dom
+* React-router-dom
+* Coreui/react
+* React testing-library
+* React-bootstrap
+* React-scripts
+* typescript
+* Bootstrap
+* Chalk
+* Dotenv
+* Pg

@@ -20,8 +20,8 @@ export const FormSelection: React.FC<FormSelectionProps> = ({labelText, name, va
     <div className="form-selection-div">
       <label>
       
-        <h4>{labelText}</h4>
-        <select className="card-form-select" 
+        <h5 >{labelText}</h5>
+        <select className="input-text width" 
           name={name}
           value={value}
           onChange={onChange}
