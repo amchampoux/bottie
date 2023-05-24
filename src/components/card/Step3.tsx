@@ -3,7 +3,9 @@ import "./Card.css";
 // import './Step2.css';
 import { PageTitle } from "../_partials/_PageTitle";
 import { FormSelect } from "react-bootstrap";
-import { FormSelection } from "../CardConfigure/FormSelection";
+import { FormSelection } from "../cardConfigure/FormSelection";
+// import { FormSelection } from "../CardConfigure/FormSelection";
+
 
 interface Step3Props {
   relationship: string;

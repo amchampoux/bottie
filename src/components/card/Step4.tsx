@@ -4,9 +4,9 @@ import "./Step4.css";
 import { PageTitle } from "../_partials/_PageTitle";
 
 //import components
-import { FormTextBox } from "../CardConfigure/FormTextbox";
-import { FormSelection } from "../CardConfigure/FormSelection";
-import { FormCheckBoxes } from "../CardConfigure/FormCheckboxes";
+import { FormTextBox } from "../cardConfigure/FormTextbox";
+import { FormSelection } from "../cardConfigure/FormSelection";
+import { FormCheckBoxes } from "../cardConfigure/FormCheckboxes";
 
 interface Step4Props {
   handleGPTSubmit: any;

@@ -3,7 +3,7 @@ import "./Card.css";
 import "./Step5.css";
 import logo from "../_partials/images/BottieLogo.png";
 import { PageTitle } from "../_partials/_PageTitle";
-import { CardMessage } from "../CardConfigure/CardMessage";
+import { CardMessage } from "../cardConfigure/CardMessage";
 
 interface Step5Props {
   chatGPTMessage: string;
